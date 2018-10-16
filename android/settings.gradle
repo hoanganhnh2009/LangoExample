@@ -1,0 +1,5 @@
+rootProject.name = 'langov3'
+include ':react-native-locale-detector'
+project(':react-native-locale-detector').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-locale-detector/android')
+
+include ':app'
